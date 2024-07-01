@@ -1,5 +1,5 @@
 {
-  "name": "tmp-sx",
+  "name": "gemini-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:tmp-sx": "node dist/tmp-sx/server/server.mjs"
+    "serve:ssr:gemini-app": "node dist/gemini-app/server/server.mjs"
   },
   "private": true,
   "dependencies": {

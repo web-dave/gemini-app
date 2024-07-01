@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'tmp-sx' title`, () => {
+  it(`should have the 'gemini-app' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tmp-sx');
+    expect(app.title).toEqual('gemini-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tmp-sx');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, gemini-app'
+    );
   });
 });
